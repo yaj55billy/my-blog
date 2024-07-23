@@ -1,0 +1,91 @@
+$primary: #dee2e6
+$secondary: #ffffff
+$emphasis: #8cd3d9
+$bg: rgba(0, 10, 20, 1)
+$cardBg: #1f2937
+
+html,body 
+	color: $primary
+	background-color: rgba(0, 10, 20, 1)
+	line-height: 1.7
+
+a
+	color: $primary
+	// text-decoration: underline
+	// text-decoration-style: dashed
+	// text-underline-offset: 6px
+	font-weight: normal
+	&:hover
+		color: $emphasis
+
+h1,h2,h3,h4 
+	color: $secondary
+	font-weight: bold
+	a
+		text-decoration: none
+		color: $secondary
+		font-weight: bold
+
+h1
+	@apply text-4xl
+h2
+	@apply text-3xl
+h3
+	@apply text-2xl
+h4
+	@apply text-xl
+
+p
+	margin-top: 1.5rem
+	margin-bottom: 0rem
+	font-weight: normal
+	color: $primary
+	@apply text-base 
+
+strong
+	color: $primary
+	font-weight: bold
+	border-bottom: 2px solid $emphasis
+
+ul, ol
+	margin-top: .75rem
+	li::marker
+		color: $primary
+
+li
+	margin: .25rem 0
+
+code
+	word-wrap: break-word
+	padding: .2rem .3rem
+	border-radius: .3rem
+	background-color: $cardBg
+	color: $emphasis
+
+hr
+	@apply border-gray-500 border-dashed
+	margin: 2rem auto 3rem
+	width: 33.333%
+
+th
+	border: 1px solid $primary
+	padding: .5rem
+	text-align: center
+	font-weight: bold
+	color: $secondary
+
+td
+	border: 1px solid $primary
+	padding: .5rem
+
+blockquote
+	display: block
+	border-left: .5rem solid $emphasis
+	background-color: $cardBg
+	padding: .75rem 1rem
+	margin: 1.25rem 0
+	p
+		margin-top: 0rem
+iframe
+	display: block
+	margin: 0 auto

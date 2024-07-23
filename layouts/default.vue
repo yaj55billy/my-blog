@@ -4,7 +4,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 </script>
 
 <template>
-	<StarBackground />
+	<!-- <StarBackground /> -->
 	<div class="relative z-10">
 		<div class="container mx-auto max-w-4xl">
 			<header class="flex justify-between items-center mt-5">
@@ -25,10 +25,4 @@ import { ref, onMounted, onUnmounted } from "vue";
 	</div>
 </template>
 
-<style>
-html,
-body {
-	background-color: rgba(0, 10, 20, 1);
-	line-height: 1.7;
-}
-</style>
+<style lang="scss"></style>

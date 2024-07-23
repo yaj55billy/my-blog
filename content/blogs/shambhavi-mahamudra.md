@@ -8,11 +8,15 @@ cover: https://i.imgur.com/aJMjmF8.jpeg
 
 ## 動機
 
+<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sxXaepPZloI?si=_7DbFz4FOE-5w_AL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
+
 在去年的秋冬，為了想讓身體狀況再更進一步，所以做了不少嘗試，像是參加食療課積極調整三餐、自然醫學相關諮詢、真吾調理等，在身心的作用上確實得到好的回饋。
+
+<!-- > 我是誰？ -->
 
 到了今年的一月，身體大致剩下兩個關卡（出門、睡眠），所以花了滿多時間在沈澱、看書、靜坐等，知道剩餘的障礙部分屬於自己的責任，要透過自我探索來看到障礙是什麼。
 
-這個時間點剛好接觸到了 **[星語 Star Language | JOY](https://www.youtube.com/@yuh5162)** 這個頻道，透過 Joy 的內容分享，我開始看更多的薩古魯 youtube 影片跟書籍[<薩古魯談業力：一個瑜伽士關於改變命運的教導>](https://www.books.com.tw/products/0010931224?sloc=main)，這是開啟想上內在工程課程的引子，我想要的不是來自外部的答案，而是透過引導、習氣破除來更了解自己（跟障礙）。
+這個時間點剛好接觸到了 [星語 Star Language | JOY](https://www.youtube.com/@yuh5162) 這個頻道，透過 Joy 的內容分享，我開始看更多的薩古魯 youtube 影片跟書籍[<薩古魯談業力：一個瑜伽士關於改變命運的教導>](https://www.books.com.tw/products/0010931224?sloc=main)，這是開啟想上內在工程課程的引子，我想要的不是來自外部的答案，而是透過引導、習氣破除來更了解自己（跟障礙）。
 
 感謝 Joy 以及她後來推薦的 LINE 群組甘納許小書院，裡頭有些熱心的前輩，解除了我一些上課的疑慮，像是害怕聽不懂英語 XD
 
