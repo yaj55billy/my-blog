@@ -5,7 +5,7 @@ module.exports = {
 			colors: {
 				primary: "#dee2e6", // normal and text
 				secondary: "#ffffff", // title
-				emphasis: "#8cd3d9", // 強調色
+				emphasis: "rgba(260, 142, 128, 1)", // 強調色
 				bg: "rgba(0, 10, 20, 1)",
 				cardBg: "#1f2937",
 			},

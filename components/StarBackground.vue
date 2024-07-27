@@ -10,6 +10,7 @@ let centerX, centerY;
 let stars = [],
 	star;
 const speed = 3; // 速度調整
+const bgColor = "rgba(25, 35, 45, 1)";
 
 const createStarsPosition = () => {
 	const canvas = canvasRef.value;
@@ -39,7 +40,7 @@ const drawStars = () => {
 
 	let pixelX, pixelY, pixelRadius;
 
-	ctx.fillStyle = "rgba(0,10,20,1)";
+	ctx.fillStyle = bgColor;
 	ctx.fillRect(0, 0, canvas.width, canvas.height);
 
 	for (let i = 0; i < numStars; i++) {
