@@ -1,9 +1,39 @@
 ---
-title: 32歲的重新探索，帶來什麼體會？
-date: 2023-10-27
-categories: ["生活"]
-description: 32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。
-cover: https://i.imgur.com/TdKOKwO.jpeg
+title: "32歲的重新探索，帶來什麼體會？"
+description: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
+date: "2023-10-27"
+categories: ["生活隨筆"]
+image:
+  src: "https://i.imgur.com/TdKOKwO.jpeg"
+  alt: "32歲的重新探索，帶來什麼體會？"
+head:
+  meta:
+    - name: "description"
+      content: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "32歲的重新探索，帶來什麼體會？"
+    - property: "og:description"
+      content: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
+    - property: "og:image"
+      content: "https://i.imgur.com/TdKOKwO.jpeg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "32歲的重新探索，帶來什麼體會？"
+    - name: "twitter:description"
+      content: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/TdKOKwO.jpeg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 ![32歲的重新探索，帶來什麼體會？](https://i.imgur.com/TdKOKwO.jpeg)

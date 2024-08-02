@@ -1,9 +1,39 @@
 ---
-title: 六角學院 React 入門工作坊第一週
-description: 這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路
-date: 2023-08-11
-categories: ["前端", "六角學院", "React"]
-cover: https://i.imgur.com/Zwb2dxR.jpg
+title: "六角學院 React 入門工作坊第一週"
+description: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
+date: "2023-08-11"
+categories: ["前端筆記", "六角學院", "React"]
+image:
+  src: "https://i.imgur.com/Zwb2dxR.jpg"
+  alt: "六角學院 React 入門工作坊第一週"
+head:
+  meta:
+    - name: "description"
+      content: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "六角學院 React 入門工作坊第一週"
+    - property: "og:description"
+      content: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
+    - property: "og:image"
+      content: "https://i.imgur.com/Zwb2dxR.jpg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "六角學院 React 入門工作坊第一週"
+    - name: "twitter:description"
+      content: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/Zwb2dxR.jpg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

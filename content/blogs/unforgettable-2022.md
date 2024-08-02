@@ -1,9 +1,39 @@
 ---
-title: 刻骨銘心的 2022
-description: 2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。
-date: 2022-12-23
-categories: ["生活"]
-cover: https://imgur.com/0C7J62U.jpg
+title: "刻骨銘心的 2022"
+description: "2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。"
+date: "2022-12-23"
+categories: ["生活隨筆"]
+image:
+  src: "https://imgur.com/0C7J62U.jpg"
+  alt: "刻骨銘心的 2022"
+head:
+  meta:
+    - name: "description"
+      content: "2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "刻骨銘心的 2022"
+    - property: "og:description"
+      content: "2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。"
+    - property: "og:image"
+      content: "https://imgur.com/0C7J62U.jpg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "刻骨銘心的 2022"
+    - name: "twitter:description"
+      content: "2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。"
+    - name: "twitter:image"
+      content: "https://imgur.com/0C7J62U.jpg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。

@@ -1,9 +1,39 @@
 ---
-title: Pinia 筆記
-description: 目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的...
-date: 2023-08-14
-categories: ["前端", "pinia"]
-cover: https://i.imgur.com/BkwBMOG.png
+title: "Pinia 筆記"
+description: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
+date: "2023-08-14"
+categories: ["前端筆記", "pinia"]
+image:
+  src: "https://i.imgur.com/BkwBMOG.png"
+  alt: "Pinia 筆記"
+head:
+  meta:
+    - name: "description"
+      content: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "Pinia 筆記"
+    - property: "og:description"
+      content: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
+    - property: "og:image"
+      content: "https://i.imgur.com/BkwBMOG.png"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "Pinia 筆記"
+    - name: "twitter:description"
+      content: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
+    - name: "twitter:image"
+      content: "https://i.imgur.com/BkwBMOG.png"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 ![pinia](https://i.imgur.com/BkwBMOG.png)

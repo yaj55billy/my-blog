@@ -1,9 +1,39 @@
 ---
-title: 回憶錄：小四的那一年
-description: 小學四年級時，曾在嘉義過溝短暫待了一年。而前天早晨夢到了相關的人事物，起床後忽然很好奇那邊現在的景象......之後就文思泉湧的產生了這篇文章。
-date: 2023-02-22
-categories: ["生活"]
-cover: https://i.imgur.com/0uwIEUZ.png
+title: "回憶錄：小四的那一年"
+description: "小學四年級時，曾在嘉義過溝短暫待了一年。而前天早晨夢到了相關的人事物，起床後忽然很好奇那邊現在的景象......之後就文思泉湧的產生了這篇文章。"
+date: "2023-02-22"
+categories: ["生活隨筆"]
+image:
+  src: "https://i.imgur.com/0uwIEUZ.png"
+  alt: "回憶錄：小四的那一年"
+head:
+  meta:
+    - name: "description"
+      content: "小學四年級時，曾在嘉義過溝短暫待了一年。而前天早晨夢到了相關的人事物，起床後忽然很好奇那邊現在的景象......之後就文思泉湧的產生了這篇文章。"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "回憶錄：小四的那一年"
+    - property: "og:description"
+      content: "小學四年級時，曾在嘉義過溝短暫待了一年。而前天早晨夢到了相關的人事物，起床後忽然很好奇那邊現在的景象......之後就文思泉湧的產生了這篇文章。"
+    - property: "og:image"
+      content: "https://i.imgur.com/0uwIEUZ.png"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "回憶錄：小四的那一年"
+    - name: "twitter:description"
+      content: "小學四年級時，曾在嘉義過溝短暫待了一年。而前天早晨夢到了相關的人事物，起床後忽然很好奇那邊現在的景象......之後就文思泉湧的產生了這篇文章。"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/0uwIEUZ.png"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 <!-- heroImagePath: '/images/memoirs-child-chiayi.jpg' -->

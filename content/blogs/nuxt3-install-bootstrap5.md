@@ -1,9 +1,39 @@
 ---
-title: 在 Nuxt3 使用 Bootstrap5
-description: 記錄在 Nuxt3 如何安裝並引用 Bootstrap5
-date: 2023-08-24
-categories: ["前端", "Nuxt3", "Bootstrap5"]
-cover: https://i.imgur.com/OpmAfpH.jpg
+title: "在 Nuxt3 使用 Bootstrap5"
+description: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
+date: "2023-08-24"
+categories: ["前端筆記", "Nuxt3", "Bootstrap5"]
+image:
+  src: "https://i.imgur.com/OpmAfpH.jpg"
+  alt: "在 Nuxt3 使用 Bootstrap5"
+head:
+  meta:
+    - name: "description"
+      content: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "在 Nuxt3 使用 Bootstrap5"
+    - property: "og:description"
+      content: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
+    - property: "og:image"
+      content: "https://i.imgur.com/OpmAfpH.jpg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "在 Nuxt3 使用 Bootstrap5"
+    - name: "twitter:description"
+      content: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/OpmAfpH.jpg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 ## 前言
@@ -69,7 +99,7 @@ export default defineNuxtConfig({
 });
 ```
 
-```scss
+```css
 // main.scss
 @import "bootstrap/scss/functions";
 @import "./variables";
@@ -99,26 +129,26 @@ export default defineNuxtPlugin((nuxtApp) => {
 接著我們可以透過 `const { $bootstrap } = useNuxtApp()` 來使用 bootstrap js，記得要加上 $ 符號。
 以下範例示意，當去打 api 拿回資料後，才去觸發 Modal：
 
-```html
+```vue
 <script setup>
-	// bootstrap js
-	const { $bootstrap } = useNuxtApp();
+// bootstrap js
+const { $bootstrap } = useNuxtApp();
 
-	// ... 其他程式略
+// ... 其他程式略
 
-	$fetch(api, {
-		method: "GET",
-		headers: headers,
-	}).then((res) => {
-		const { data } = res;
-		// ... 略
-		productModalHandle.show();
-	});
+$fetch(api, {
+	method: "GET",
+	headers: headers,
+}).then((res) => {
+	const { data } = res;
+	// ... 略
+	productModalHandle.show();
+});
 
-	onMounted(() => {
-		productModalHandle = new $bootstrap.Modal(productModal.value, {}); // 記得綁上 ref
-		delProductModalHandle = new $bootstrap.Modal(delProductModal.value, {});
-	});
+onMounted(() => {
+	productModalHandle = new $bootstrap.Modal(productModal.value, {}); // 記得綁上 ref
+	delProductModalHandle = new $bootstrap.Modal(delProductModal.value, {});
+});
 </script>
 ```
 

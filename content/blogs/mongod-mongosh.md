@@ -1,9 +1,39 @@
 ---
-title: mongoDB 資料庫（資料表操作）
-description: 用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作
-date: 2024-03-10
-categories: ["前端", "Mongo Shell", "MongoDB"]
-cover: https://i.imgur.com/R9qXjKc.jpeg
+title: "mongoDB 資料庫（資料表操作）"
+description: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
+date: "2024-03-10"
+categories: ["前端筆記", "MongoDB"]
+image:
+  src: "https://i.imgur.com/R9qXjKc.jpeg"
+  alt: "mongoDB 資料庫（資料表操作）"
+head:
+  meta:
+    - name: "description"
+      content: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "mongoDB 資料庫（資料表操作）"
+    - property: "og:description"
+      content: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
+    - property: "og:image"
+      content: "https://i.imgur.com/R9qXjKc.jpeg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "mongoDB 資料庫（資料表操作）"
+    - name: "twitter:description"
+      content: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/R9qXjKc.jpeg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 :::tip

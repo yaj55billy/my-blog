@@ -1,9 +1,39 @@
 ---
 title: "即將到來的 2024 隨筆"
-description: 內容真的是很隨筆，所以並沒有太多著墨在通順部分，以及內容可能有些怪力亂神，但已經盡量減少，還請見諒。
+description: "內容真的是很隨筆，所以並沒有太多著墨在通順部分，以及內容可能有些怪力亂神，但已經盡量減少，還請見諒。"
 date: "2023-12-30"
-categories: ["生活", "隨筆"]
-cover: https://i.imgur.com/T7Y0uxN.jpeg
+categories: ["生活隨筆"]
+image:
+  src: "https://i.imgur.com/T7Y0uxN.jpeg"
+  alt: "即將到來的 2024 隨筆"
+head:
+  meta:
+    - name: "description"
+      content: "內容真的是很隨筆，所以並沒有太多著墨在通順部分，以及內容可能有些怪力亂神，但已經盡量減少，還請見諒。"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "即將到來的 2024 隨筆"
+    - property: "og:description"
+      content: "內容真的是很隨筆，所以並沒有太多著墨在通順部分，以及內容可能有些怪力亂神，但已經盡量減少，還請見諒。"
+    - property: "og:image"
+      content: "https://i.imgur.com/T7Y0uxN.jpeg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "即將到來的 2024 隨筆"
+    - name: "twitter:description"
+      content: "內容真的是很隨筆，所以並沒有太多著墨在通順部分，以及內容可能有些怪力亂神，但已經盡量減少，還請見諒。"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/T7Y0uxN.jpeg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 ![即將到來的 2024 隨筆](https://i.imgur.com/T7Y0uxN.jpeg)

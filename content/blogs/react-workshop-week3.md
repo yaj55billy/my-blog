@@ -1,9 +1,39 @@
 ---
-title: 六角學院 React 入門工作坊第三週
-description: 關於第三週的一些分享、心得
-date: 2023-08-28
-categories: ["前端", "六角學院", "React"]
-cover: https://i.imgur.com/Zwb2dxR.jpg
+title: "六角學院 React 入門工作坊第三週"
+description: "關於第三週的一些分享、心得"
+date: "2023-08-28"
+categories: ["前端筆記", "六角學院", "React"]
+image:
+  src: "https://i.imgur.com/Zwb2dxR.jpg"
+  alt: "六角學院 React 入門工作坊第三週"
+head:
+  meta:
+    - name: "description"
+      content: "關於第三週的一些分享、心得"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "六角學院 React 入門工作坊第三週"
+    - property: "og:description"
+      content: "關於第三週的一些分享、心得"
+    - property: "og:image"
+      content: "https://i.imgur.com/Zwb2dxR.jpg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "六角學院 React 入門工作坊第三週"
+    - name: "twitter:description"
+      content: "關於第三週的一些分享、心得"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/Zwb2dxR.jpg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

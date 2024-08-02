@@ -1,10 +1,42 @@
 ---
-title: 內在工程 香巴維大手印 完課記錄
-description: 如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。
-date: 2024-03-19
-categories: ["生活", "內在工程"]
-cover: https://i.imgur.com/aJMjmF8.jpeg
+title: "內在工程 香巴維大手印 完課記錄"
+description: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
+date: "2024-03-19"
+categories: ["生活隨筆", "內在工程"]
+image:
+  src: "https://i.imgur.com/aJMjmF8.jpeg"
+  alt: "內在工程 香巴維大手印 完課記錄"
+head:
+  meta:
+    - name: "description"
+      content: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "內在工程 香巴維大手印 完課記錄"
+    - property: "og:description"
+      content: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
+    - property: "og:image"
+      content: "https://i.imgur.com/aJMjmF8.jpeg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "內在工程 香巴維大手印 完課記錄"
+    - name: "twitter:description"
+      content: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/aJMjmF8.jpeg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
+
+![test](/images/avatar-q.jpg)
 
 ## 動機
 

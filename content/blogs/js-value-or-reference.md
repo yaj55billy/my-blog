@@ -1,9 +1,39 @@
 ---
-title: JavaScript 傳值與傳參考
-description: 關於 JavaScript 的傳值與傳參考特性
-date: 2023-10-26
-categories: ["前端", "JavaScript"]
-cover: https://i.imgur.com/DvyeScP.jpg
+title: "JavaScript 傳值與傳參考"
+description: "關於 JavaScript 的傳值與傳參考特性"
+date: "2023-10-26"
+categories: ["前端筆記", "JavaScript"]
+image:
+  src: "https://i.imgur.com/DvyeScP.jpg"
+  alt: "JavaScript 傳值與傳參考"
+head:
+  meta:
+    - name: "description"
+      content: "關於 JavaScript 的傳值與傳參考特性"
+    - name: "robots"
+      content: "index, follow"
+    - name: "author"
+      content: "筆力"
+    - property: "og:site_name"
+      content: "筆力 - 探索與記錄的產地"
+    - property: "og:type"
+      content: "article"
+    - property: "og:title"
+      content: "JavaScript 傳值與傳參考"
+    - property: "og:description"
+      content: "關於 JavaScript 的傳值與傳參考特性"
+    - property: "og:image"
+      content: "https://i.imgur.com/DvyeScP.jpg"
+    - property: "og:url"
+      content: ""
+    - name: "twitter:title"
+      content: "JavaScript 傳值與傳參考"
+    - name: "twitter:description"
+      content: "關於 JavaScript 的傳值與傳參考特性"
+    - name: "twitter:image"
+      content: "https://i.imgur.com/DvyeScP.jpg"
+    - name: "twitter:creator"
+      content: "筆力"
 ---
 
 ## JavaScript 的資料型別

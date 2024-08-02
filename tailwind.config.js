@@ -99,7 +99,7 @@ module.exports = {
 							color: theme("colors.emphasis"),
 						},
 						hr: {
-							margin: "2rem auto 3rem",
+							margin: "3rem auto",
 							border: "1px dashed theme('colors.gray.500')",
 							width: "33.333%",
 						},
