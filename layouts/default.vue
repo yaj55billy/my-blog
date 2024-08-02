@@ -7,7 +7,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 	<div class="relative z-10">
 		<div class="container mx-auto max-w-5xl px-4">
 			<Header />
-			<main class="p-2">
+			<main>
 				<slot />
 			</main>
 		</div>

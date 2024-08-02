@@ -2,7 +2,8 @@ $primary: #dee2e6
 $secondary: #ffffff
 $emphasis: rgba(260, 142, 128,1)
 $bg: rgba(25, 35, 45, 1)
-$cardBg: #1f2937
+$cardBg: rgba(44, 55, 67, 1)
+// $codeBg: rgba(51, 62, 74, 1)
 
 html,body 
 	color: $primary
@@ -59,7 +60,6 @@ code
 	word-wrap: break-word
 	padding: .2rem .3rem
 	border-radius: .3rem
-	background-color: $cardBg
 	color: $emphasis
 
 hr
@@ -81,7 +81,6 @@ td
 blockquote
 	display: block
 	border-left: .5rem solid $emphasis
-	background-color: $cardBg
 	padding: .75rem 1rem
 	margin: 1.25rem 0
 	p
@@ -89,3 +88,8 @@ blockquote
 iframe
 	display: block
 	margin: 0 auto
+
+.card-bg
+	background-color: $cardBg
+.title-hover
+	color: $emphasis
