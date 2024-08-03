@@ -5,9 +5,10 @@ module.exports = {
 			colors: {
 				primary: "#dee2e6", // normal and text
 				secondary: "#ffffff", // title
+				third: "#9ca3af",
 				emphasis: "rgba(260, 142, 128, 1)", // 強調色
 				bg: "rgba(0, 10, 20, 1)",
-				cardBg: "#1f2937",
+				cardBg: "rgba(44, 55, 67, 1)",
 			},
 			typography: (theme) => ({
 				DEFAULT: {

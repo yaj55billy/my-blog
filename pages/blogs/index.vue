@@ -1,4 +1,6 @@
 <script setup>
+import Card from "@/components/Card.vue";
+
 const { data } = await useAsyncData("blog-list", () =>
 	queryContent("/blogs")
 		.only(["_path", "title", "description", "date", "categories", "image"])
@@ -55,7 +57,6 @@ const handlePageClick = (num) => {
 	} else {
 		pageIndex.value += num;
 	}
-	// console.log(pageIndex.value);
 };
 
 // SEO
@@ -68,97 +69,70 @@ useHead({
 				"Here you will find all the blog posts I have written & published on this site.",
 		},
 	],
-	// titleTemplate: 'Riyad\'s Blog - %s',
 });
 </script>
 
 <template>
-	<section>
-		<ul class="grid grid-cols-2 gap-6">
-			<li
-				v-for="post in currentPageData"
-				:key="post.path"
-				class="card-bg relative p-5 rounded-xl flex flex-wrap flex-col group"
-			>
-				<div class="w-full h-64 rounded-md overflow-hidden">
-					<img
-						:src="post?.image.src"
-						:alt="post?.image.alt"
-						class="block w-full h-full object-cover object-center transition-transform origin-center duration-700 group-hover:scale-105"
-					/>
-				</div>
-				<h3 class="group-hover:text-emphasis mt-5">{{ post.title }}</h3>
-				<p class="mt-4">{{ post.description }}</p>
-				<div class="">
-					<ul class="mt-4 flex flex-wrap">
-						<li
-							v-for="category in post.categories"
-							:key="category"
-							class="text-sm"
-						>
-							{{ category }},
-						</li>
-					</ul>
-					<p class="mt-0">{{ post.date }}</p>
-				</div>
-
-				<NuxtLink
-					:to="post.path"
-					class="absolute top-0 left-0 w-full h-full"
-				></NuxtLink>
-			</li>
-		</ul>
+	<section class="grid grid-cols-2 gap-6">
+		<Card :currentPageData="currentPageData"></Card>
 	</section>
 	<section>
-		<button
-			type="button"
-			@click="handlePageClick(-1)"
-			:disabled="pageIndex === 0"
-		>
-			上一頁
-		</button>
-		<ul>
-			<li
-				v-for="(page, index) in totalPage"
-				:key="page + index"
-				:class="{ active: index === pageIndex }"
-			>
-				<button type="button" @click="pageIndex = page - 1">{{ page }}</button>
-			</li>
-		</ul>
-		<button
-			type="button"
-			@click="handlePageClick(1)"
-			:disabled="pageIndex === totalPage - 1"
-		>
-			下一頁
-		</button>
+		<nav aria-label="Page navigation" class="flex justify-center mt-6">
+			<ul class="flex items-center space-x-2 text-base">
+				<li
+					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+					@click="handlePageClick(-1)"
+					:class="{ invisible: pageIndex === 0 }"
+				>
+					<span class="sr-only">Previous</span>
+					<svg
+						class="w-3 h-3 rtl:rotate-180"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 6 10"
+					>
+						<path
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="M5 1 1 5l4 4"
+						/>
+					</svg>
+				</li>
+				<li
+					v-for="(page, index) in totalPage"
+					:key="page + index"
+					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+					:class="{ 'bg-cardBg': index === pageIndex }"
+					@click="pageIndex = page - 1"
+				>
+					{{ page }}
+				</li>
+				<li
+					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+					@click="handlePageClick(1)"
+					:class="{ invisible: pageIndex === totalPage - 1 }"
+				>
+					<span class="sr-only">Next</span>
+					<svg
+						class="w-3 h-3 rtl:rotate-180"
+						aria-hidden="true"
+						xmlns="http://www.w3.org/2000/svg"
+						fill="none"
+						viewBox="0 0 6 10"
+					>
+						<path
+							stroke="currentColor"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							stroke-width="2"
+							d="m1 9 4-4-4-4"
+						/>
+					</svg>
+				</li>
+			</ul>
+		</nav>
 	</section>
 </template>
-
-<style scoped lang="scss">
-// .active {
-// 	font-weight: 700;
-// 	font-size: 1.25rem;
-// }
-// .card {
-// 	display: flex;
-// 	flex-wrap: wrap;
-// 	margin-top: 100px;
-
-// 	&__list {
-// 		width: 30%;
-// 		margin: 20px 1%;
-// 		min-height: 300px;
-// 		list-style: none;
-// 		padding: 0.5rem 1rem;
-// 		color: rgba(255, 255, 255, 1);
-
-// 		background-color: rgba(21, 38, 58, 0.7);
-// 		cursor: pointer;
-// 		a:hover {
-// 			color: #f08e80;
-// 		}
-// 	}
-// }
-</style>

@@ -2,7 +2,12 @@
 export default defineNuxtConfig({
 	devtools: { enabled: true },
 	css: ["@/assets/main.sass"],
-	modules: ["@nuxtjs/tailwindcss", "@nuxtjs/color-mode", "@nuxt/content"],
+	modules: [
+		"@nuxtjs/tailwindcss",
+		"@nuxtjs/color-mode",
+		"@nuxt/content",
+		"nuxt-icon",
+	],
 	content: {
 		highlight: {
 			theme: {

@@ -11,12 +11,6 @@
 				<li>
 					<NuxtLink to="/categories" class="link">所有分類</NuxtLink>
 				</li>
-				<li>
-					<NuxtLink to="/" class="link">程式記錄</NuxtLink>
-				</li>
-				<li>
-					<NuxtLink to="/" class="link">生活記錄</NuxtLink>
-				</li>
 			</ul>
 		</nav>
 	</header>
