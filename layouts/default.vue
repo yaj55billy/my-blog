@@ -5,15 +5,16 @@ import { ref, onMounted, onUnmounted } from "vue";
 </script>
 
 <template>
-	<div class="relative z-10">
-		<div class="container mx-auto max-w-5xl px-4">
-			<Header />
-			<main>
+	<div class="relative z-10 flex flex-col min-h-screen">
+		<Header />
+		<div class="container mx-auto max-w-5xl px-4 flex-grow">
+			<main class="mt-8">
 				<slot />
 			</main>
-			<Footer />
 		</div>
+		<Footer />
 	</div>
+	<StarBackground />
 </template>
 
 <style lang="scss"></style>
