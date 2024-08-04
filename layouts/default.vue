@@ -5,6 +5,13 @@ import { ref, onMounted, onUnmounted } from "vue";
 </script>
 
 <template>
+	<NuxtLoadingIndicator
+		color="rgba(260, 142, 128, 1)"
+		:height="6"
+		:duration="3000"
+		:throttle="0"
+	/>
+
 	<div class="relative z-10 flex flex-col min-h-screen">
 		<Header />
 		<div class="container mx-auto max-w-5xl px-4 flex-grow">
@@ -14,7 +21,6 @@ import { ref, onMounted, onUnmounted } from "vue";
 		</div>
 		<Footer />
 	</div>
-	<StarBackground />
 </template>
 
 <style lang="scss"></style>

@@ -8,7 +8,12 @@
 			<NuxtLink to="/blogs" class="lxgw-wenkai-tc-regular text-lg"
 				>所有文章</NuxtLink
 			>
-			<NuxtLink to="/" target="_blank" class="text-[1.8rem] translate-y-[1px]">
+			<NuxtLink
+				to="/"
+				target="_blank"
+				class="text-[1.8rem] translate-y-[1px]"
+				external
+			>
 				<Icon name="mdi:facebook-box" />
 			</NuxtLink>
 		</nav>

@@ -3,6 +3,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 const canvasRef = ref(null);
 const passSign = ref(false);
+let animationFrameId = null; // 用于跟踪动画帧
 
 let numStars = 450;
 let focalLength;
@@ -70,9 +71,12 @@ const animateStars = () => {
 };
 
 const executeFrame = () => {
-	drawStars();
-	animateStars();
-	requestAnimationFrame(executeFrame);
+	const canvas = canvasRef.value;
+	if (canvas) {
+		drawStars();
+		animateStars();
+		animationFrameId = requestAnimationFrame(executeFrame);
+	}
 };
 
 const adjustStarCountForScreenSize = () => {
@@ -108,6 +112,9 @@ onMounted(() => {
 
 onUnmounted(() => {
 	window.removeEventListener("resize", handleResize);
+	if (animationFrameId !== null) {
+		cancelAnimationFrame(animationFrameId); // 停止动画
+	}
 });
 </script>
 
