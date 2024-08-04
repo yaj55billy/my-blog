@@ -30,7 +30,7 @@ const formattedData = computed(() => {
 	);
 });
 
-const pageSize = ref(6);
+const pageSize = ref(9);
 const pageIndex = ref(0);
 const currentPageData = computed(() => {
 	return (
@@ -73,7 +73,7 @@ useHead({
 </script>
 
 <template>
-	<section class="grid grid-cols-2 gap-6">
+	<section class="grid grid-cols-3 gap-6">
 		<Card :currentPageData="currentPageData"></Card>
 	</section>
 	<section>

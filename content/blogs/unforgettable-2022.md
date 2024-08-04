@@ -34,6 +34,7 @@ head:
       content: "https://imgur.com/0C7J62U.jpg"
     - name: "twitter:creator"
       content: "筆力"
+toc: true
 ---
 
 2022 也即將踏上尾聲，如果要我對 2022 下一些關鍵字的話，我會選擇「**痛苦**」、「**爭執**」、「**覺察**」、「**掙扎**」、「**疑難雜症**」等這五組字詞。

@@ -34,6 +34,7 @@ head:
       content: "https://i.imgur.com/T7Y0uxN.jpeg"
     - name: "twitter:creator"
       content: "筆力"
+toc: true
 ---
 
 ![即將到來的 2024 隨筆](https://i.imgur.com/T7Y0uxN.jpeg)

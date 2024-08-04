@@ -34,6 +34,7 @@ head:
       content: "https://i.imgur.com/DvyeScP.jpg"
     - name: "twitter:creator"
       content: "筆力"
+toc: true
 ---
 
 ## JavaScript 的資料型別
