@@ -1,5 +1,10 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+	runtimeConfig: {
+		public: {
+			disqusShortname: "",
+		},
+	},
 	devtools: { enabled: true },
 	css: ["@/assets/main.sass"],
 	modules: [
@@ -8,6 +13,7 @@ export default defineNuxtConfig({
 		"@nuxt/content",
 		"nuxt-icon",
 	],
+	plugins: ["~/plugins/disqus.js"],
 	content: {
 		highlight: {
 			theme: {

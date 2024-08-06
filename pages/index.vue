@@ -4,7 +4,7 @@ import StarBackground from "@/components/StarBackground.vue";
 
 <template>
 	<div class="relative z-10">
-		<div class="test test2">
+		<div class="bg-cardBg p-10 rounded-xl">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium,
 			error vitae quisquam quod numquam, dolor recusandae qui neque, sequi
 			ratione reiciendis minima non perspiciatis inventore pariatur? Consectetur
@@ -15,15 +15,3 @@ import StarBackground from "@/components/StarBackground.vue";
 	</div>
 	<StarBackground />
 </template>
-
-<style lang="scss">
-.test {
-	border-radius: 12px;
-	padding: 16px 24px;
-	margin-top: 45px;
-}
-
-.test2 {
-	background-color: rgba(44, 55, 67, 1);
-}
-</style>

@@ -4,13 +4,22 @@
 			<div class="grid grid-cols-12 gap-10">
 				<section
 					:class="{ 'col-span-9': doc.toc, 'col-span-12': !doc.toc }"
-					class="bg-cardBg py-6 px-12 rounded-xl"
+					class="bg-cardBg p-10 rounded-xl"
 				>
 					<ContentRenderer :value="doc" />
+
+					<ClientOnly>
+						<div class="comments mt-12">
+							<Disqus
+								:shortname="disqusShortname"
+								:identifier="disqusIdentifier"
+							></Disqus>
+						</div>
+					</ClientOnly>
 				</section>
 				<section class="col-span-3 not-prose" v-if="doc.toc">
 					<aside class="sticky top-8">
-						<nav class="bg-cardBg p-6 rounded-xl">
+						<nav class="bg-cardBg p-5 rounded-xl">
 							<h4 class="text-center">-- 內容目錄 --</h4>
 							<TocLinks :links="doc.body.toc.links" />
 						</nav>
@@ -22,32 +31,14 @@
 </template>
 
 <script setup>
-// const activeId = ref(null);
-// onMounted(() => {
-// 	const callback = (entries) => {
-// 		console.log(entries);
-// 		for (const entry of entries) {
-// 			if (entry.isIntersecting) {
-// 				activeId.value = entry.target.id;
-// 				break;
-// 			}
-// 		}
-// 	};
+const route = useRoute();
+const disqusShortname = ref("");
+const disqusIdentifier = ref("");
 
-// 	const observer = new IntersectionObserver(callback, {
-// 		root: null,
-// 		threshold: 0.5,
-// 	});
-// 	const elements = document.querySelectorAll("h2, h3");
+const config = useRuntimeConfig();
 
-// 	for (const element of elements) {
-// 		observer.observe(element);
-// 	}
-
-// 	onBeforeUnmount(() => {
-// 		for (const element of elements) {
-// 			observer.unobserve(element);
-// 		}
-// 	});
-// });
+onMounted(() => {
+	disqusShortname.value = config.public.disqusShortname;
+	disqusIdentifier.value = route.path;
+});
 </script>
