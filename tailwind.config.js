@@ -1,6 +1,22 @@
 module.exports = {
 	darkMode: "class",
 	theme: {
+		screens: {
+			"2xl": { max: "1535px" },
+			// => @media (max-width: 1535px) { ... }
+
+			xl: { max: "1279px" },
+			// => @media (max-width: 1279px) { ... }
+
+			lg: { max: "1023px" },
+			// => @media (max-width: 1023px) { ... }
+
+			md: { max: "767px" },
+			// => @media (max-width: 767px) { ... }
+
+			sm: { max: "639px" },
+			// => @media (max-width: 639px) { ... }
+		},
 		extend: {
 			colors: {
 				primary: "#dee2e6", // normal and text
@@ -129,6 +145,16 @@ module.exports = {
 							display: "block",
 							margin: "0 auto",
 						},
+						img: {
+							display: "block",
+							margin: "0 auto",
+						},
+					},
+				},
+				sm: {
+					css: {
+						fontSize: "0.875rem",
+						lineHeight: "1.25rem",
 					},
 				},
 			}),

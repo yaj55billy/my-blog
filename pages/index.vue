@@ -3,15 +3,15 @@ import StarBackground from "@/components/StarBackground.vue";
 </script>
 
 <template>
-	<div class="relative z-10 p-10">
+	<div class="relative z-10 p-10 lg:p-6">
 		<span
 			class="absolute top-0 left-0 w-full h-full bg-cardBg opacity-55 rounded-xl"
 		></span>
-		<div class="relative z-10 grid grid-cols-12 gap-8">
-			<div class="col-span-4">
+		<div class="relative z-10 grid grid-cols-12 gap-8 lg:gap-6">
+			<div class="col-span-4 md:col-span-12">
 				<img src="/images/avatar.jpg" alt="筆力" class="rounded-md" />
 			</div>
-			<div class="col-span-8">
+			<div class="col-span-8 md:col-span-12 text-justify">
 				<p class="mt-0">
 					哈囉，我是筆力。<br />
 					首先想做個介紹，為什麼我會建立這個 Blog？然後開始寫些文章？

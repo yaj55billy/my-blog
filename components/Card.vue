@@ -10,9 +10,9 @@ const props = defineProps({
 	<div
 		v-for="post in props.currentPageData"
 		:key="post.path"
-		class="card-bg relative p-5 rounded-xl flex flex-wrap flex-col group"
+		class="card-bg relative p-6 rounded-xl flex flex-wrap flex-col group"
 	>
-		<div class="w-full h-64 rounded-md overflow-hidden">
+		<div class="w-full h-64 sm:h-56 rounded-md overflow-hidden">
 			<img
 				:src="post?.image.src"
 				:alt="post?.image.alt"

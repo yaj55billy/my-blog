@@ -30,7 +30,7 @@ const formattedData = computed(() => {
 	);
 });
 
-const pageSize = ref(9);
+const pageSize = ref(6);
 const pageIndex = ref(0);
 const currentPageData = computed(() => {
 	return (
@@ -61,24 +61,49 @@ const handlePageClick = (num) => {
 
 // SEO
 useHead({
-	title: "Archive",
+	title: "筆力 - 探索與記錄的產地（所有文章）",
 	meta: [
+		{ name: "title", content: "筆力 - 探索與記錄的產地（所有文章）" },
 		{
 			name: "description",
 			content:
-				"Here you will find all the blog posts I have written & published on this site.",
+				"分享的內容，像是在這疑難雜症的經驗中所帶來的體悟，以及所做的一些學習心得。最近在研究習慣、心念、大腦等等相關領域，也有閱讀一些身心靈書籍跟阿育吠陀等知識。如果這些分享能為你帶來一些小小心得，也歡迎給我一些回饋。",
+		},
+		{ property: "og:title", content: "筆力 - 探索與記錄的產地" },
+		{
+			property: "og:description",
+			content:
+				"分享的內容，像是在這疑難雜症的經驗中所帶來的體悟，以及所做的一些學習心得。最近在研究習慣、心念、大腦等等相關領域，也有閱讀一些身心靈書籍跟阿育吠陀等知識。如果這些分享能為你帶來一些小小心得，也歡迎給我一些回饋。",
+		},
+		{ property: "og:image", content: "/images/meta-logo.png" },
+		{ property: "og:url", content: "https://www.billyji.com/" },
+		{
+			name: "twitter:title",
+			content: "筆力 - 探索與記錄的產地",
+		},
+		{
+			name: "twitter:description",
+			content:
+				"分享的內容，像是在這疑難雜症的經驗中所帶來的體悟，以及所做的一些學習心得。最近在研究習慣、心念、大腦等等相關領域，也有閱讀一些身心靈書籍跟阿育吠陀等知識。如果這些分享能為你帶來一些小小心得，也歡迎給我一些回饋。",
+		},
+		{ name: "twitter:image", content: "/images/meta-logo.png" },
+		{
+			name: "twitter:creator",
+			content: "筆力",
 		},
 	],
 });
 </script>
 
 <template>
-	<section class="grid grid-cols-3 gap-6">
+	<section class="grid grid-cols-3 gap-6 lg:grid-cols-2 sm:grid-cols-1">
 		<Card :currentPageData="currentPageData"></Card>
 	</section>
 	<section>
-		<nav aria-label="Page navigation" class="flex justify-center mt-6">
-			<ul class="flex items-center space-x-2 text-base">
+		<nav aria-label="Page navigation" class="flex justify-center mt-6 px-6">
+			<ul
+				class="flex flex-wrap items-center justify-center space-x-2 text-base"
+			>
 				<li
 					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
 					@click="handlePageClick(-1)"

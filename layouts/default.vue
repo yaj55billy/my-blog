@@ -14,7 +14,7 @@ import { ref, onMounted, onUnmounted } from "vue";
 
 	<div class="relative z-10 flex flex-col min-h-screen">
 		<Header />
-		<div class="container mx-auto max-w-8xl px-4 flex-grow">
+		<div class="container mx-auto max-w-7xl px-6 flex-grow">
 			<main class="mt-8">
 				<slot />
 			</main>
