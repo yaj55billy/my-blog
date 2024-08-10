@@ -4,7 +4,7 @@ description: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 
 date: "2023-08-14"
 categories: ["前端筆記", "pinia"]
 image:
-  src: "https://i.imgur.com/BkwBMOG.png"
+  src: "/images/blogs/learn-pinia.jpg"
   alt: "Pinia 筆記"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
     - property: "og:image"
-      content: "https://i.imgur.com/BkwBMOG.png"
+      content: "/images/blogs/learn-pinia.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,13 +31,13 @@ head:
     - name: "twitter:description"
       content: "目前正在複習 Vue ，這邊也把 Pinia 做個筆記。Pinia 跟先前的 Vuex 都是拿來做狀態管理的..."
     - name: "twitter:image"
-      content: "https://i.imgur.com/BkwBMOG.png"
+      content: "/images/blogs/learn-pinia.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
 
-![pinia](https://i.imgur.com/BkwBMOG.png)
+![Pinia 筆記](/images/blogs/learn-pinia.jpg)
 
 ## Pinia
 

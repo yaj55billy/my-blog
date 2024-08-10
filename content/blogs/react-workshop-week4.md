@@ -4,7 +4,7 @@ description: "第四週與拆解"
 date: "2023-08-31"
 categories: ["前端筆記", "六角學院", "React"]
 image:
-  src: "https://i.imgur.com/Zwb2dxR.jpg"
+  src: "/images/blogs/react-workshop.jpg"
   alt: "六角學院 React 入門工作坊第四週（最終）"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "第四週與拆解"
     - property: "og:image"
-      content: "https://i.imgur.com/Zwb2dxR.jpg"
+      content: "/images/blogs/react-workshop.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,13 +31,17 @@ head:
     - name: "twitter:description"
       content: "第四週與拆解"
     - name: "twitter:image"
-      content: "https://i.imgur.com/Zwb2dxR.jpg"
+      content: "/images/blogs/react-workshop.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
 
-Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+![六角學院 React 入門工作坊](/images/blogs/react-workshop.jpg)
+
+<div class="text-center mt-1">
+Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+</div>
 
 ## 前言
 

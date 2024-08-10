@@ -10,14 +10,16 @@
 			<template v-slot="{ doc }">
 				<div class="text-center mb-12 lg:mb-6">
 					<h1 class="mb-0">{{ doc.title }}</h1>
-					<p class="mt-3 text-base text-third flex items-center justify-center">
+					<div
+						class="mt-3 text-base text-third flex items-center justify-center"
+					>
 						<Icon
 							name="mdi:calendar-month-outline"
 							class="text-third text-xl mr-1"
 						/>
 
 						{{ doc.date }}
-					</p>
+					</div>
 				</div>
 
 				<div class="grid grid-cols-12 gap-10 lg:gap-6">

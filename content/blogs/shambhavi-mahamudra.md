@@ -4,7 +4,7 @@ description: "如果問我是否推薦內在工程，我是相當推薦這門課
 date: "2024-03-19"
 categories: ["生活隨筆", "內在工程"]
 image:
-  src: "https://i.imgur.com/aJMjmF8.jpeg"
+  src: "/images/blogs/shambhavi-mahamudra.jpg"
   alt: "內在工程 香巴維大手印 完課記錄"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
     - property: "og:image"
-      content: "https://i.imgur.com/aJMjmF8.jpeg"
+      content: "/images/blogs/shambhavi-mahamudra.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,21 +31,17 @@ head:
     - name: "twitter:description"
       content: "如果問我是否推薦內在工程，我是相當推薦這門課程的，它會讓你重新去看到與自己的關係，從自身開始做調整，開始擴展你的意識。"
     - name: "twitter:image"
-      content: "https://i.imgur.com/aJMjmF8.jpeg"
+      content: "/images/blogs/shambhavi-mahamudra.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
 
-![test](/images/avatar-q.jpg)
+![內在工程 香巴維大手印 完課記錄](/images/blogs/shambhavi-mahamudra.jpg)
 
 ## 動機
 
-<!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/sxXaepPZloI?si=_7DbFz4FOE-5w_AL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe> -->
-
 在去年的秋冬，為了想讓身體狀況再更進一步，所以做了不少嘗試，像是參加食療課積極調整三餐、自然醫學相關諮詢、真吾調理等，在身心的作用上確實得到好的回饋。
-
-<!-- > 我是誰？ -->
 
 到了今年的一月，身體大致剩下兩個關卡（出門、睡眠），所以花了滿多時間在沈澱、看書、靜坐等，知道剩餘的障礙部分屬於自己的責任，要透過自我探索來看到障礙是什麼。
 

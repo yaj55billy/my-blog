@@ -4,7 +4,7 @@ description: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資
 date: "2024-03-10"
 categories: ["前端筆記", "MongoDB"]
 image:
-  src: "https://i.imgur.com/R9qXjKc.jpeg"
+  src: "/images/blogs/mongod-mongosh.jpg"
   alt: "mongoDB 資料庫（資料表操作）"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
     - property: "og:image"
-      content: "https://i.imgur.com/R9qXjKc.jpeg"
+      content: "/images/blogs/mongod-mongosh.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,11 +31,13 @@ head:
     - name: "twitter:description"
       content: "用自己的口語，再次筆記練習 mongoDB 的資料庫與資料表操作"
     - name: "twitter:image"
-      content: "https://i.imgur.com/R9qXjKc.jpeg"
+      content: "/images/blogs/mongod-mongosh.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
+
+![mongoDB 資料庫（資料表操作）](/images/blogs/mongod-mongosh.jpg)
 
 關於 **mongoDB 資料庫與資料表操作**用自己的口語再次筆記練習
 

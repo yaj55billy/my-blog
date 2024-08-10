@@ -4,7 +4,7 @@ description: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
 date: "2023-08-24"
 categories: ["前端筆記", "Nuxt3", "Bootstrap5"]
 image:
-  src: "https://i.imgur.com/OpmAfpH.jpg"
+  src: "/images/blogs/nuxt3-install-bootstrap5.jpg"
   alt: "在 Nuxt3 使用 Bootstrap5"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
     - property: "og:image"
-      content: "https://i.imgur.com/OpmAfpH.jpg"
+      content: "/images/blogs/nuxt3-install-bootstrap5.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,11 +31,13 @@ head:
     - name: "twitter:description"
       content: "記錄在 Nuxt3 如何安裝並引用 Bootstrap5"
     - name: "twitter:image"
-      content: "https://i.imgur.com/OpmAfpH.jpg"
+      content: "/images/blogs/nuxt3-install-bootstrap5.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
+
+![在 Nuxt3 使用 Bootstrap5](/images/blogs/nuxt3-install-bootstrap5.jpg)
 
 ## 前言
 

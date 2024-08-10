@@ -4,7 +4,7 @@ description: "關於 JavaScript 的傳值與傳參考特性"
 date: "2023-10-26"
 categories: ["前端筆記", "JavaScript"]
 image:
-  src: "https://i.imgur.com/DvyeScP.jpg"
+  src: "/images/blogs/js.jpg"
   alt: "JavaScript 傳值與傳參考"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "關於 JavaScript 的傳值與傳參考特性"
     - property: "og:image"
-      content: "https://i.imgur.com/DvyeScP.jpg"
+      content: "/images/blogs/js.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,11 +31,13 @@ head:
     - name: "twitter:description"
       content: "關於 JavaScript 的傳值與傳參考特性"
     - name: "twitter:image"
-      content: "https://i.imgur.com/DvyeScP.jpg"
+      content: "/images/blogs/js.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
+
+![JavaScript 傳值與傳參考](/images/blogs/js.jpg)
 
 ## JavaScript 的資料型別
 

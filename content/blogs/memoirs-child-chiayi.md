@@ -37,7 +37,7 @@ head:
 toc: true
 ---
 
-<!-- heroImagePath: '/images/memoirs-child-chiayi.jpg' -->
+![回憶錄：小四的那一年](https://i.imgur.com/0uwIEUZ.png)
 
 ## 前言 - 為何會有這篇文
 

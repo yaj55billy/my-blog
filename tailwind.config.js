@@ -86,6 +86,9 @@ module.exports = {
 							fontSize: theme("fontSize.base"),
 							marginTop: "1.25rem",
 							marginBottom: "0rem",
+							"&:first-of-type": {
+								marginTop: "0rem", // 设置第一个 p 标签的 margin-top 为 0
+							},
 						},
 						strong: {
 							color: theme("colors.primary"),

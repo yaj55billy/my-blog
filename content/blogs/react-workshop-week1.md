@@ -4,7 +4,7 @@ description: "這篇文章主要是想把第一週作業的過程，做點紀錄
 date: "2023-08-11"
 categories: ["前端筆記", "六角學院", "React"]
 image:
-  src: "https://i.imgur.com/Zwb2dxR.jpg"
+  src: "/images/blogs/react-workshop.jpg"
   alt: "六角學院 React 入門工作坊第一週"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
     - property: "og:image"
-      content: "https://i.imgur.com/Zwb2dxR.jpg"
+      content: "/images/blogs/react-workshop.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,13 +31,17 @@ head:
     - name: "twitter:description"
       content: "這篇文章主要是想把第一週作業的過程，做點紀錄跟刻意練習寫程式的思路"
     - name: "twitter:image"
-      content: "https://i.imgur.com/Zwb2dxR.jpg"
+      content: "/images/blogs/react-workshop.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
 
-Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+![六角學院 React 入門工作坊](/images/blogs/react-workshop.jpg)
+
+<div class="text-center mt-1">
+Photo by <a href="https://unsplash.com/@lautaroandreani?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Lautaro Andreani</a> on <a href="https://unsplash.com/photos/xkBaqlcqeb4?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank">Unsplash</a>
+</div>
 
 ## 前言
 

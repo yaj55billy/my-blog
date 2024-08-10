@@ -4,7 +4,7 @@ description: "32 歲的這一年，才發現自己侷限在好多概念中，像
 date: "2023-10-27"
 categories: ["生活隨筆"]
 image:
-  src: "https://i.imgur.com/TdKOKwO.jpeg"
+  src: "/images/blogs/rediscover.jpg"
   alt: "32歲的重新探索，帶來什麼體會？"
 head:
   meta:
@@ -23,7 +23,7 @@ head:
     - property: "og:description"
       content: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
     - property: "og:image"
-      content: "https://i.imgur.com/TdKOKwO.jpeg"
+      content: "/images/blogs/rediscover.jpg"
     - property: "og:url"
       content: ""
     - name: "twitter:title"
@@ -31,19 +31,19 @@ head:
     - name: "twitter:description"
       content: "32 歲的這一年，才發現自己侷限在好多概念中，像是應該要、一定要如何，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個別人所期望的人生。"
     - name: "twitter:image"
-      content: "https://i.imgur.com/TdKOKwO.jpeg"
+      content: "/images/blogs/rediscover.jpg"
     - name: "twitter:creator"
       content: "筆力"
 toc: true
 ---
 
-![32歲的重新探索，帶來什麼體會？](https://i.imgur.com/TdKOKwO.jpeg)
+![32歲的重新探索，帶來什麼體會？](/images/blogs/rediscover.jpg)
 
-Photo by [Emma Frances Logan](https://unsplash.com/@emmafranceslogan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash) on [Unsplash](https://unsplash.com/photos/PVIbUkN_wCQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)
+<div class="text-center mt-1">
+Photo by <a href="https://unsplash.com/@emmafranceslogan?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Emma Frances Logan</a> on <a href="https://unsplash.com/photos/PVIbUkN_wCQ?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash" target="_blank">Unsplash</a>
+</div>
 
----
-
-### 四月的提問與轉折
+## 四月的提問與轉折
 
 生活中常會有高低起伏，狀況好的時候，我可以很專注在能做且該做的事情上，甚至會有種淡淡的喜悅感；而狀況不好的時候，會比較容易受到負面念頭跟情緒的影響，冒出覺得很累、狀況好糟、為什麼要有這些體驗的種種想法。不過比起去年，我更能有意識的去覺察到這些種種，抱持著一種覺知，就比較容易跟負面保持距離（但不是要推開它）。即使偶爾被負面狀況帶走，回頭還是會告訴自己，這些高低起伏才是生活的真實寫照。
 
@@ -59,7 +59,7 @@ Photo by [Emma Frances Logan](https://unsplash.com/@emmafranceslogan?utm_content
 
 透過這些種種的疑問，讓我開始意識到不同的角度，也是一個轉折的開始。32 歲的這一年，才發現自己侷限在好多概念中，像是**應該要**、**一定要如何**，而忽略了其他的可能性，沒有來自好奇心的探索、自主思考與質疑，就好像在過一個**別人所期望**的人生。
 
-### 進一步探索的六月
+## 進一步探索的六月
 
 隨著四月的心境轉折，到了六月時，我開始探索起自己喜歡什麼，不過可能是過去很少這樣的探索，所以剛開始是腦袋一片空白的狀態（有一點沮喪）；不過在多方面探索嘗試後，漸漸浮出一些資訊。
 
@@ -100,7 +100,7 @@ Photo by [Emma Frances Logan](https://unsplash.com/@emmafranceslogan?utm_content
 - 大學前期都窩在學校讀書館的哲學區，看了很多心理學相關，像是社會心理、認知相關、諮商等等，也想過轉到相關學校或科系。
 - 如果一直討論機械相關，其實我會覺得無聊跟倦怠。（如果是認識的工科同學來看，先說拍謝了，其實我覺得很無趣...XD）
 
-### 結尾
+## 結尾
 
 在轉折跟探索中，發現自己被好多概念綁架，並固守在這些概念之中，如同上一段所提的小故事，過去在一些感受跟訊號出現時，自己就先限制自己（壓抑），而沒有勇氣採取進一步的探索跟體驗，沒有去嘗試自己更想貼近什麼。
 
