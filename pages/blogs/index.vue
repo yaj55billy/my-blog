@@ -96,68 +96,70 @@ useHead({
 </script>
 
 <template>
-	<section class="grid grid-cols-3 gap-6 lg:grid-cols-2 sm:grid-cols-1">
-		<Card :currentPageData="currentPageData"></Card>
-	</section>
-	<section>
-		<nav aria-label="Page navigation" class="flex justify-center mt-6 px-6">
-			<ul
-				class="flex flex-wrap items-center justify-center space-x-2 text-base"
-			>
-				<li
-					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
-					@click="handlePageClick(-1)"
-					:class="{ invisible: pageIndex === 0 }"
+	<main>
+		<section class="grid grid-cols-3 gap-6 lg:grid-cols-2 sm:grid-cols-1">
+			<Card :currentPageData="currentPageData"></Card>
+		</section>
+		<section>
+			<nav aria-label="Page navigation" class="flex justify-center mt-6 px-6">
+				<ul
+					class="flex flex-wrap items-center justify-center space-x-2 text-base"
 				>
-					<span class="sr-only">Previous</span>
-					<svg
-						class="w-3 h-3 rtl:rotate-180"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 6 10"
+					<li
+						class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+						@click="handlePageClick(-1)"
+						:class="{ invisible: pageIndex === 0 }"
 					>
-						<path
-							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="M5 1 1 5l4 4"
-						/>
-					</svg>
-				</li>
-				<li
-					v-for="(page, index) in totalPage"
-					:key="page + index"
-					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
-					:class="{ 'bg-cardBg': index === pageIndex }"
-					@click="pageIndex = page - 1"
-				>
-					{{ page }}
-				</li>
-				<li
-					class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
-					@click="handlePageClick(1)"
-					:class="{ invisible: pageIndex === totalPage - 1 }"
-				>
-					<span class="sr-only">Next</span>
-					<svg
-						class="w-3 h-3 rtl:rotate-180"
-						aria-hidden="true"
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 6 10"
+						<span class="sr-only">Previous</span>
+						<svg
+							class="w-3 h-3 rtl:rotate-180"
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 6 10"
+						>
+							<path
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="M5 1 1 5l4 4"
+							/>
+						</svg>
+					</li>
+					<li
+						v-for="(page, index) in totalPage"
+						:key="page + index"
+						class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+						:class="{ 'bg-cardBg': index === pageIndex }"
+						@click="pageIndex = page - 1"
 					>
-						<path
-							stroke="currentColor"
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							stroke-width="2"
-							d="m1 9 4-4-4-4"
-						/>
-					</svg>
-				</li>
-			</ul>
-		</nav>
-	</section>
+						{{ page }}
+					</li>
+					<li
+						class="cursor-pointer flex items-center justify-center w-12 h-12 border border-gray-700 rounded-md text-primary hover:bg-cardBg hover:text-secondary"
+						@click="handlePageClick(1)"
+						:class="{ invisible: pageIndex === totalPage - 1 }"
+					>
+						<span class="sr-only">Next</span>
+						<svg
+							class="w-3 h-3 rtl:rotate-180"
+							aria-hidden="true"
+							xmlns="http://www.w3.org/2000/svg"
+							fill="none"
+							viewBox="0 0 6 10"
+						>
+							<path
+								stroke="currentColor"
+								stroke-linecap="round"
+								stroke-linejoin="round"
+								stroke-width="2"
+								d="m1 9 4-4-4-4"
+							/>
+						</svg>
+					</li>
+				</ul>
+			</nav>
+		</section>
+	</main>
 </template>
