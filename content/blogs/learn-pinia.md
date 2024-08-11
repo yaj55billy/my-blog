@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/learn-pinia.png"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/learn-pinia"
     - name: "twitter:title"
       content: "Pinia 筆記"
     - name: "twitter:description"

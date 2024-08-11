@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/coming-2024.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/coming-2024"
     - name: "twitter:title"
       content: "即將到來的 2024 隨筆"
     - name: "twitter:description"

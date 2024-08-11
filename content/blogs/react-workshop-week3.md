@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/react-workshop.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/react-workshop-week3"
     - name: "twitter:title"
       content: "六角學院 React 入門工作坊第三週"
     - name: "twitter:description"

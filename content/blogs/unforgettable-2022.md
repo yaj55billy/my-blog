@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/unforgettable-2022.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/unforgettable-2022"
     - name: "twitter:title"
       content: "刻骨銘心的 2022"
     - name: "twitter:description"

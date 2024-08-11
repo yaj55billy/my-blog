@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/mongod-mongosh.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/mongod-mongosh"
     - name: "twitter:title"
       content: "mongoDB 資料庫（資料表操作）"
     - name: "twitter:description"

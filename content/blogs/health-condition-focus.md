@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/health-condition-focus.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/health-condition-focus"
     - name: "twitter:title"
       content: "身體疑難雜症的焦點轉換"
     - name: "twitter:description"

@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/rediscover.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/rediscover"
     - name: "twitter:title"
       content: "32歲的重新探索，帶來什麼體會？"
     - name: "twitter:description"

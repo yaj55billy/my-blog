@@ -16,7 +16,7 @@
 				>所有文章</NuxtLink
 			>
 			<NuxtLink
-				to="/"
+				to="https://www.facebook.com/profile.php?id=61559929209114"
 				target="_blank"
 				class="text-[1.8rem] translate-y-[1px]"
 				external

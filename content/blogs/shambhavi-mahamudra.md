@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/shambhavi-mahamudra.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/shambhavi-mahamudra"
     - name: "twitter:title"
       content: "內在工程 香巴維大手印 完課記錄"
     - name: "twitter:description"

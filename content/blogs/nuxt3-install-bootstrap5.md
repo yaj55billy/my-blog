@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/nuxt3-install-bootstrap5.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/nuxt3-install-bootstrap5"
     - name: "twitter:title"
       content: "在 Nuxt3 使用 Bootstrap5"
     - name: "twitter:description"

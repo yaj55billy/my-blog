@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "/images/blogs/js.jpg"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/js-value-or-reference"
     - name: "twitter:title"
       content: "JavaScript 傳值與傳參考"
     - name: "twitter:description"

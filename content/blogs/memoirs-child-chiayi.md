@@ -25,7 +25,7 @@ head:
     - property: "og:image"
       content: "https://i.imgur.com/0uwIEUZ.png"
     - property: "og:url"
-      content: ""
+      content: "https://www.billyji.com/blogs/memoirs-child-chiayi"
     - name: "twitter:title"
       content: "回憶錄：小四的那一年"
     - name: "twitter:description"
