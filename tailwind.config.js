@@ -85,9 +85,12 @@ module.exports = {
 							fontWeight: "normal",
 							fontSize: theme("fontSize.base"),
 							marginTop: "1.25rem",
-							marginBottom: "0rem",
+							marginBottom: "1.25rem",
 							"&:first-of-type": {
 								marginTop: "0rem", // 设置第一个 p 标签的 margin-top 为 0
+							},
+							img: {
+								marginBottom: "2rem",
 							},
 						},
 						strong: {
@@ -151,6 +154,7 @@ module.exports = {
 						img: {
 							display: "block",
 							margin: "0 auto",
+							borderRadius: ".375rem",
 						},
 					},
 				},
